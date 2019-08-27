@@ -6,11 +6,12 @@ body {
 /* Targeting a class in CSS - every element with the class of header will receive these CSS rules */
 .header {
     background-color: rgba(150, 0, 50, 1.0);
-    overflow: hidden;
+    width: 100%;
+    margin: 0;
 }
 
 .headerLink {
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
     color: #FFFFFF;
     /* red: f * f= 15 * 15 =255
@@ -24,8 +25,7 @@ body {
 
 /* Target an  ID in CSS - the element with the ID of homeLink will receive these CSS rules */
 #homeLink {
-    float: left;
-}
+    float: left;}
 
 #homeLink:hover {
     text-decoration: underline;
