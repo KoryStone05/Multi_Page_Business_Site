@@ -1,0 +1,41 @@
+#businessName {
+    text-align: center;
+}
+
+#businessLogo {
+    display: block;
+    margin: 0 auto;
+}
+
+#businessDescription {
+    text-align: center;
+    margin: 20px;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+    bottom: 0;
+    height: 100%
+    width: 100%
+}
+
+.footerLeft {
+    color: rgba(150, 0, 50, 1.5);
+    font-size: 25px;
+}
+
+.footerLeft:hover {
+    text-decoration: underline;
+}
+
+.footerRight {
+    text-align: right;
+    color: rgba(150, 0, 50, 1.5);
+    font-size: 25px;
+}
+
+.footerRight:hover {
+    text-decoration: underline;
+}
